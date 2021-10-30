@@ -1,0 +1,15 @@
+.my-card-body {
+    height: 100vh;
+}
+.elipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media screen and (max-width:768px){
+  .my-card-body{
+    height:auto;
+    max-height:50vh;
+  }
+}
